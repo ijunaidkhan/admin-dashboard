@@ -3,6 +3,16 @@ mat-toolbar {
   color: white;
 }
 
+.mat-drawer-inner-container {
+  display: flex !important;
+  flex-direction: end !important;
+}
+
+button:focus:not(:focus-visible) {
+  outline: 0;
+  background: black;
+}
+
 mat-sidenav {
   // margin: 16px;
   width: 200px;

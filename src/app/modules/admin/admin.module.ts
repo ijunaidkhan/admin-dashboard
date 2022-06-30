@@ -14,9 +14,11 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
+import { MerchantsComponent } from './components/merchants/merchants.component';
+import { DealsComponent } from './components/deals/deals.component';
 
 @NgModule({
-  declarations: [AdminDashboardComponent, HeaderComponent, FooterComponent, HomeComponent, ContactComponent, ServicesComponent, AboutComponent],
+  declarations: [AdminDashboardComponent, HeaderComponent, FooterComponent, HomeComponent, ContactComponent, ServicesComponent, AboutComponent, MerchantsComponent, DealsComponent],
   imports: [
     CommonModule,
     AdminRoutingModule,
